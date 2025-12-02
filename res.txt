@@ -1,0 +1,668 @@
+
+
+Wikipédial'encyclopédie libre
+Rechercher sur Wikipédia
+Rechercher
+Faire un don
+Créer un compte
+Se connecter
+Banner logo	
+Participez au mois asiatique de Wikipedia ce novembre et décembre!
+Contribuez durant le mois asiatique de Wikipedia et recevez une carte postale!
+
+[Aidez-nous à traduire !]Réduire
+Sommaire masquer
+Début
+Controverse autour du nom
+Histoire
+
+Philosophie du projet : esprit hacker et logiciel libre
+
+Distributions
+
+Diffusion du système
+
+Caractéristiques techniques
+
+Utilisations
+
+Notes et références
+Annexes
+
+Linux
+GNU/Linux
+
+
+Article
+Discussion
+Lire
+Modifier
+Modifier le code
+Voir l’historique
+
+Outils
+Apparence masquer
+Taille du texte
+
+Petite
+
+Standard
+
+Grande
+Largeur
+
+Standard
+
+Large
+Couleur (bêta)
+
+Automatique
+
+Clair
+
+Sombre
+Page d’aide sur l’homonymie	
+Pour les articles homonymes, voir Linux (homonymie).
+
+Linux
+GNU/Linux
+Logo
+Ubuntu, une distribution Linux.
+Ubuntu, une distribution Linux.
+Famille	UNIX
+Langues	Anglais pour le noyau, multilingue pour la plupart des distributions Linux
+Type de noyau	Linux
+État du projet	En développement constant
+Plates-formes	Géré par le noyau Linux : x86, x86-64, DEC Alpha, ARM, m68k, Microblaze, MIPS, PA-RISC, PowerPC, RISC-V, s390, SuperH, SPARC, Xtensa (en)
+Entreprise /
+Fondateur	Linus Torvalds
+Entreprise /
+Développeur	Richard Stallman à l'origine du projet GNU,
+
+Linus Torvalds à l'origine du noyau Linux
+
+Communauté de milliers de programmeurs et d’entreprises
+Licence	GNU GPL pour le noyau, licences libres pour le reste
+Écrit en	C, assembleur et Rust
+Première version	17 septembre 1991[1]
+Dernière version stable	6.14 (24 mars 2025)[2]
+Environnement de bureau	Console pour le noyau, X11 (GNOME, Unity, KDE, Xfce, E16/E17, LXDE, Openbox, Awesome, etc) ou Wayland + Interface en ligne de commande
+Gestionnaire de paquets	Dépendant de la distribution : dpkg, APT, Aptitude, Synaptic, RPM, DNF, Emerge, Pacman, etc.
+Site web	Projet GNU
+Noyau Linux
+modifier 
+Page d’aide sur l’homonymie	
+Ne doit pas être confondu avec Noyau Linux.
+
+Linux (parfois nommé GNU/Linux) est un système d'exploitation open source de type Unix, basé sur le noyau Linux créé en 1991 par Linus Torvalds. De nombreuses distributions Linux ont depuis vu le jour et constituent un important vecteur de popularisation du mouvement du logiciel libre.
+
+Si, à l'origine, Linux a été développé pour les ordinateurs compatibles PC et accompagné des logiciels GNU, il n'a jamais équipé plus d'une très faible (~3.17%) part des ordinateurs personnels. Mais le noyau Linux, accompagné ou non des logiciels GNU, est largement utilisé sur les serveurs, téléphones mobiles, systèmes embarqués et les superordinateurs.
+
+Controverse autour du nom
+Article détaillé : Linux ou GNU/Linux.
+À l'origine, le terme Linux ne désignait que le noyau de système d'exploitation Linux. Puis, par métonymie, l'usage du terme Linux s'est répandu pour décrire tant le noyau Linux que le système d'exploitation au sens large, qui contenait plus de logiciels issus du projet GNU que du projet Linux. Le nom GNU/Linux a été initié par Debian à la demande de Richard Stallman, pour créditer à la fois les développeurs de GNU (les logiciels système) et de Linux (le noyau). Cependant, ce terme plus long n'a jamais supplanté Linux qui reste le plus répandu.
+
+Depuis les années 2000, le noyau Linux est aussi très largement utilisé sans être accompagné de logiciels GNU. C'est notamment le cas d'Android, des images de conteneurs d'application qui utilisent une distribution minimaliste comme Alpine Linux, et des systèmes embarqués avec des commandes système simplifiées fournies par Busybox.
+
+Histoire
+Unix, Minix et GNU
+Articles détaillés : Unix, GNU et Minix.
+Le système Unix a été créé par AT&T au début des années 1970 et s'est notamment répandu dans le monde universitaire. Dès la fin de l'année 1977[3], des chercheurs de l'université de Californie apportèrent de nombreuses améliorations au système Unix et le distribuèrent sous le nom de Berkeley Software Distribution (BSD). Finalement, les distributions BSD furent purgées du code AT&T, et librement disponibles en 1991. La distribution de BSD a toutefois été contrariée par une procédure judiciaire d'AT&T (en) au début des années 1990.
+
+
+La mascotte GNU.
+En 1983, Richard Stallman annonce son projet de développer un système d'exploitation libre compatible UNIX appelé GNU[4], en invitant la communauté hacker à le rejoindre et participer à son développement. Dès 1985, certaines pièces maîtresses sont opérationnelles, dont le compilateur GCC[5]. Le projet GNU commence vers 1990 à travailler sur le noyau de système d'exploitation Hurd, mais son développement prendra plus de dix ans.
+
+Minix est un système d'exploitation de type Unix fondé sur un micro-noyau. Il a été créé en 1987 par le professeur Andrew Tanenbaum à des fins pédagogiques. La licence de Minix était bon marché afin d'être accessible aux étudiants, mais Minix n'était pas librement distribuable.
+
+1991 : naissance du noyau Linux
+
+Linus Torvalds, initiateur et coordinateur du noyau Linux.
+
+Tux, le manchot mascotte de Linux.
+Article détaillé : Noyau Linux.
+En 1991, l'étudiant finlandais Linus Torvalds, indisposé par la faible disponibilité du serveur informatique UNIX de l'université d'Helsinki, entreprend le développement d'un noyau de système d'exploitation, qui prendra le nom de «noyau Linux».
+
+Linus Torvalds utilisait et appréciait Minix. Le 25 août 1991, il annonce sur le forum Usenet comp.os.minix le développement du noyau Linux[6].
+
+Bien qu'il appelait son projet «Linux» en privé, Linus l'a d'abord appelé «Freax» en public, car il trouvait «Linux» trop égocentrique. Toutefois, lors de la première publication sur le site FTP ftp://ftp.funet.fi [archive], l'administrateur du serveur Ari Lemmke n'aimait pas «Freax» et a créé un répertoire pub/OS/Linux[7].
+
+Linus Torvalds choisit rapidement de publier son noyau sous licence GNU GPL. Cette décision rend les logiciels GNU et le noyau Linux juridiquement compatibles. Dès lors, pour combler le vide causé par le développement inachevé de Hurd, GNU et le noyau Linux sont associés pour former un nouveau système d'exploitation (parfois considéré comme variante de GNU): GNU/Linux ou Linux.
+
+Depuis 1991: évolution et diffusion du système
+À l'origine, l'installation d'un système opérationnel GNU/Linux nécessitait des connaissances solides en informatique et obligeait à trouver et installer les logiciels un à un.
+
+Rapidement, des ensembles de logiciels formant un système complet prêt à l'usage ont été disponibles: ce sont les premières distributions Linux. On peut citer par ordre chronologique[8]:
+
+deux disquettes 5,25 pouces boot et root créées par HJ Lu, et contenant un minimum de logiciels ;
+MCC Interim Linux, collection de disquettes sortie en février 1992 ;
+TAMU 1.0A, faite par l'université A&M du Texas pour ses besoins internes, mais distribuée, et première distribution incluant X Window ;
+Softlanding Linux System sortie en mai 1992, qui sera reprise pour faire Slackware ;
+Yggdrasil Linux/GNU/X sortie en décembre 1992, première distribution avec possibilité de live CD ;
+Slackware, sortie en juillet 1993, qui est la plus ancienne distribution encore maintenue ;
+Debian, sortie en août 1993, qui est une des principales distributions actuelles.
+Dans la prise en compte progressive de l'intérêt commercial de Linux et des logiciels libres, on peut citer quelques manifestations :
+
+le lancement en février 1998 de l'Open Source Initiative ;
+l'annonce en juillet 1998 du support d'Oracle Corporation, qui porte et supporte sa célèbre base de données sous GNU/Linux ;
+l'entrée en bourse de Red Hat le 11 novembre 1999; celle de VA Linux le mois suivant qui marque le sommet d'une bulle spéculative ;
+le support massif apporté par le géant IBM, qui y dépense son premier milliard de dollars en 2001[9], emploie en 2005 près de trois-cents développeurs du noyau Linux et organise à partir de 2003 la riposte légale lors de l'attaque du SCO Group qui affirmait posséder des droits d'auteurs sur le noyau Linux (voir l'article SCO contre Linux) ; l'acquisition en octobre et novembre 2003 de Ximian puis de SUSE par l'entreprise américaine Novell[10],[11].
+C'est dans le monde des serveurs informatiques que GNU/Linux a eu le plus d'impact, notamment avec le très populaire LAMP. Sur les serveurs, GNU/Linux a souvent été utilisé pour remplacer d'autres systèmes de type Unix ou éviter l'achat de licences Windows NT et est un des acteurs majeurs du domaine. Dès 2003, Microsoft semble faire lui-même en partie appel à GNU/Linux[12].
+
+En octobre 2024, Linus Torvalds exclut du développement du noyau de Linux douze développeurs russes, surtout présents dans la maintenance de pilotes pour le noyau. La raison officielle évoquée est la volonté d'appliquer les sanctions contre la Russie[13].
+
+Philosophie du projet : esprit hacker et logiciel libre
+Dans son ouvrage intitulé The Daemon, the Gnu, and the Penguin, Peter Salus explique que ce système est né de la rencontre du mode opératoire « hacker » avec les principes du mouvement du logiciel libre, les philosophies hacker et du logiciel libre y sont décrites comme deux facettes du même objet.
+
+Logiciel libre
+Article détaillé : Logiciel libre.
+C inversé, symbole du copyleft
+Le C « inversé » est le symbole du copyleft, l'« opposé » du symbole copyright.
+La différence essentielle des distributions Linux certifiées par la Free Software Foundation par rapport à d'autres systèmes d'exploitation concurrents — comme Mac OS, Microsoft Windows et Solaris — est d'être des systèmes d'exploitation libres, apportant quatre libertés aux utilisateurs, définies par la licence publique générale GNU (GPL), les rendant indépendants de tout éditeur et encourageant l'entraide et le partage.
+
+Un logiciel libre n'est pas nécessairement gratuit, et inversement un logiciel gratuit n'est pas forcément libre[14]. Ce ne sont pas non plus des logiciels libres de droits : c'est en vertu de leurs droits d'auteurs que les contributeurs d'un logiciel libre accordent les quatre libertés, qui sont d'« utiliser le logiciel sans restriction », d'« étudier le logiciel », de le « modifier pour l'adapter à ses besoins » et de le « redistribuer sous certaines conditions précises », leur non-respect pouvant conduire à des condamnations[15].
+
+Certaines licences sont fondées sur le principe du copyleft, c'est-à-dire sur le principe de réciprocité : une œuvre dérivée d'un logiciel sous copyleft doit à son tour être libre. C'est le cas de la licence libre la plus utilisée, notamment par le noyau Linux lui-même à l'exception de certains micro-blobs propriétaires : la licence GNU GPL écrite par Richard Stallman.
+
+L'ouverture du code source, l'un des quatre critères correspondant à la notion de logiciel libre, a des avantages théorisés entre autres par Eric Raymond, comme la correction rapide des bogues, et notamment la correction des failles de sécurité. C'est le refus du principe de sécurité par l'obscurité.
+
+Interopérabilité
+Linux n'aurait pas pu se développer sans la présence de protocoles standardisés utilisés sur Internet. Un bon nombre de logiciels libres sont d'ailleurs des implémentations de référence, comme Apache.
+
+Les partisans des logiciels libres sont donc des partisans constants de l'interopérabilité. Ils mettent en avant les formats ouverts, des formats de données dont les spécifications techniques sont publiques et sans restriction d'accès ni de mise en œuvre, afin de ne pas dépendre d'un seul logiciel.
+
+Citons dans cette optique Mozilla Firefox, qui tente de respecter scrupuleusement les recommandations émises par le World Wide Web Consortium, Jabber, qui a donné naissance au standard XMPP reconnu par l'Internet Engineering Task Force dans le domaine de la messagerie instantanée ou encore les suites LibreOffice et Calligra, qui ont lancé le standard OpenDocument dans le domaine de la bureautique.
+
+Dans d'autres domaines, il n'existe pas d'organisme ou d'accord de standardisation reconnus. Le marché est alors morcelé entre divers vendeurs qui ont chacun leur technologie ou sous la domination d'un acteur économique prédominant qui ferme ses formats ou protocoles.
+
+Le premier cas de figure prévaut dans la guerre des messageries instantanées et est en partie résolu par des logiciels multiprotocoles comme Pidgin ou Kopete. Les formats des suites Microsoft Office successives et le protocole Server Message Block qui permet de partager des fichiers et des imprimantes entre différents ordinateurs d'un réseau Microsoft Windows tombent dans la deuxième catégorie (ceci n'est plus vrai depuis que la suite Office utilise des fichiers XML). Ces formats et protocoles ne sont souvent pas ou mal documentés. L'interopérabilité passe alors nécessairement par la rétro-ingénierie.
+
+Cela peut nécessiter un travail important, travail par ailleurs illégal aux États-Unis mais légal en Europe (tant qu'on reste dans le cadre de l'interopérabilité) ; aujourd'hui, OpenOffice.org (LibreOffice depuis septembre 2010) permet de lire la très grande majorité des fichiers aux différents formats DOC, et le logiciel Samba permet d'utiliser les partages réseaux Windows du protocole SMB.
+
+Plus problématique du point de vue des logiciels libres sont les formats et protocoles nécessaires à l'interopérabilité, mais verrouillés techniquement ou légalement : gestion des droits numériques, brevets logiciels, Directive EUCD, Digital Millennium Copyright Act, etc.
+
+Sur le site Debian, il est expliqué que « les normes de POSIX ne sont pas gratuites et la certification POSIX.1 (et FIPS 151-2) est très chère »[16].
+
+Communautés
+De nombreuses associations, connues sous le nom de Groupe d'utilisateurs Linux (Linux Users Group en anglais), cherchent à promouvoir GNU/Linux et, par extension, les logiciels libres, par le biais de rencontres où des démonstrations de GNU/Linux sont faites, des formations, et pour ceux qui le souhaitent des installations sur leur ordinateur.
+
+De nombreuses communautés existent sur Internet afin d'aider les débutants comme les professionnels. Citons le site Léa-Linux, le site d'informations collaboratif Linuxfr.org, qui aide les utilisateurs dans leur apprentissage des bases de GNU/Linux grâce à un réseau IRC très actif, ou encore le site Le Journal du Hacker [archive][17]. Et les projets Proselux[18], Groupe de parrains Linux[19] ou encore Parrain-Linux[20] permettent aux « linuxiens » de se rencontrer pour s'entraider. De même, il existe de nombreux sites regroupant des tutoriels ainsi que des howto.
+
+Distributions
+Graphique présentant l’histoire temporelle des distributions GNU/Linux
+Ligne temporelle des distributions Linux.
+Article détaillé : Distribution Linux.
+Les logiciels libres sont développés de manière collaborative, souvent indépendamment les uns des autres, et peuvent être librement redistribués. Il s'ensuit une particularité du monde GNU/Linux : la séparation fréquente entre ceux qui développent les logiciels et ceux qui les distribuent.
+
+On appelle distribution Linux une solution prête à être installée par l'utilisateur final comprenant le noyau Linux, des programmes d'installation et d'administration de l'ordinateur, un mécanisme facilitant l'installation et la mise à jour des logiciels comme RPM ou APT ainsi qu'une sélection de logiciels produits par d'autres développeurs.
+
+Une distribution peut par exemple choisir de se spécialiser sur l'environnement de bureau GNOME ou KDE. Elle est également responsable de la configuration par défaut du système (graphisme, simplicité…), du suivi de sécurité (installations de mise à jour) et plus généralement de l'intégration de l'ensemble.
+
+La diversité des distributions permet de répondre à des besoins divers, qu'elles soient à but commercial ou non ; orientée serveur, bureautique ou embarqué ; orientée grand public ou public averti ; généraliste ou spécialisée pour un usage spécifique (pare-feu, routeur réseau, grappe de calcul, etc.) ; certifiées sur un matériel donné ; ou tout simplement entièrement libres, c'est-à-dire dépourvues de tout code propriétaire.
+
+La plupart des distributions sont dérivées d'une autre distribution. Ainsi, comme illustré dans la ligne temporelle des distributions Linux, trois distributions sont à l'origine de la plupart des autres :
+
+Slackware, apparue en 1993, qui est aujourd'hui la plus ancienne distribution encore en activité, toujours maintenue par Patrick Volkerding ;
+Debian, éditée par une communauté de développeurs ;
+Red Hat, éditée par l'entreprise américaine du même nom qui participe également au développement de Fedora
+De nombreuses autres distributions plus ou moins spécialisées existent, étant pour la plupart dérivées des projets précités. Par exemple voici quelques distributions spécialisées « environnement de bureau » : Ubuntu, éditée par Canonical Ltd. qui est dérivée de Debian ; MEPIS, également fondée sur Debian ; Zenwalk, dérivée de Slackware ; OpenMandriva Lx et Mageia éditées par des associations à but non lucratif, dérivées de feu Mandriva Linux elle-même dérivée de Red Hat. Il existe également pour beaucoup de distributions des éditions dites Live CD, l'une des plus célèbres est Knoppix[21], elles offrent la possibilité de démarrer un système d'exploitation Linux complet et d'accéder à de nombreux logiciels à partir du support (CD, DVD ou clé USB) sans installation préalable sur mémoire de masse, et sans altérer son contenu. Cette souplesse d'utilisation les rend très populaires pour les démonstrations d'utilisation de Linux, et sont même utilisées comme outils de maintenance système. Parmi les distributions Linux entièrement libres recommandées par la Free Software Foundation, on peut citer Trisquel et gNewSense.
+
+Enfin, Linux From Scratch est un livre qui, à partir du code source des logiciels, propose au lecteur de construire sa propre distribution.
+
+Principales distributions Linux
+Article détaillé : Liste des distributions Linux.
+En reprenant les distributions parentes de nombreuses autres distributions dans l'illustration des lignes temporelles :
+
+Debian
+Knoppix
+Ubuntu
+Linux Mint
+Slackware
+openSUSE (originellement SuSE)
+Red Hat Linux
+Red Hat Enterprise Linux
+Fedora
+Gentoo
+Chromium OS est basé originellement sur Gentoo
+Arch Linux
+Manjaro
+SteamOS
+Classement Similarweb (mai 2023)
+Distribution	Visites totales
+RedHat	6,7 millions
+Ubuntu	6,4 millions
+Archlinux	3 millions
+Kali linux	3 millions
+Linux Mint	2,4 millions
+Debian	2 millions
+Fedora Linux	1,3 million
+Manjaro	1,1 million
+Diffusion du système
+Contrats OEM et détaxe Windows
+Article connexe : Vente liée.
+Un des enjeux qui se posent pour les distributions Linux est de nouer des partenariats avec des fabricants d'ordinateurs afin qu'il devienne plus facile de trouver un ordinateur vendu avec un système fondé sur Linux pré-installé. Car même si certaines distributions affirment avoir rendu l'installation d'un système fondé sur Linux aussi simple que celle des systèmes d'exploitation concurrents, le simple fait d'avoir à être au courant que d'autres systèmes existent, d'être prêt à accepter des changements dans ses habitudes et d'avoir à installer soi-même le système constitue un désavantage indéniable par rapport à la situation privilégiée dont jouissent les distributeurs de Microsoft Windows et de Mac OS X. Le système de Microsoft est en effet omniprésent et Apple est en même temps le fabricant des Macintosh.
+
+Cette situation de quasi-monopole explique en partie la faible diffusion en Europe et en Amérique du Nord de Linux chez les particuliers. Un autre frein à l'adoption de Linux est l'incompatibilité avec les programmes binaires Windows (le développement de Wine permet de remédier partiellement à cette incompatibilité). La faible ressemblance entre Linux et Windows rend de plus nécessaire une certaine adaptation, mais des distributions comme Zorin OS rendent l'interface de Linux très proche de celle de Windows. Les distributions Ubuntu (2004) et MandrakeLinux (1998) devenue Mandriva Linux sont parmi les premières à s'être orientées vers une utilisation bureautique destinée au grand public[22],[23].
+
+
+Déclaration de Microsoft au salon Solutions Linux 2010.
+Depuis juillet 2009, Microsoft contribue au noyau Linux. En effet, Microsoft a publié plusieurs pilotes pour Linux, sous licence GPLv2, destinés à améliorer le support de son système de virtualisation propriétaire Hyper-V[24],[25].
+
+Parts de marché
+Le concept de part de marché est un peu particulier dans le cas du noyau Linux. En effet comme les systèmes d'exploitation qui l'utilisent sont rarement « vendus », la mesure financière n'a aucun sens.
+
+Seul le nombre de machines l'utilisant régulièrement peut être compté. Si cela est aisé pour les superordinateurs (peu nombreux), cela devient plus difficile pour les postes clients (statistiques fondées sur le user agent HTTP), et encore plus incertain pour les systèmes embarqués, à l'exception des baladeurs, téléphones, et tablettes numériques.
+
+Part de marché sur les systèmes embarqués
+Article détaillé : Linux embarqué.
+Les OS utilisant le noyau Linux équipent de nombreux systèmes embarqués.
+
+Part de marché sur les téléphones portables et tablettes
+Article détaillé : Android.
+Le système d'exploitation mobile Android développé par la firme Google à partir du noyau Linux, équipe la majorité des smartphones et tablettes. En 2020, 85 % de ces appareils utilisaient Android[26].
+
+Part de marché sur les super calculateurs
+Les Linux y sont très largement majoritaires[27].
+
+novembre 2011 : 91,40 % des TOP500[28]
+novembre 2012 : 93,80 % des TOP500[28]
+novembre 2013 : 96,40 % des TOP500[29]
+novembre 2014 : 97,00 % des TOP500 (un seul sur Windows)[30]
+novembre 2016 : 99,60 % des TOP500 (498 Linux, 2 AIX)
+novembre 2017 : 100 % des TOP500 (500 Linux)[31]
+2020 : 100 % des TOP500[32]
+Part de marché sur les serveurs
+En 2010, GNU/Linux totalise 16,8 % des parts de marché pour les serveurs, toute utilisation confondue[33], selon une étude de l'International Data Corporation (IDC), en s'appuyant sur les revenus générés.
+
+Part de marché sur les serveurs web
+Les systèmes d'exploitation de type Unix (donc en comptant aussi les * BSD) sont largement majoritaires, à 63,7 % le 27 avril 2012[34] :
+
+27 avril 2012 : 32,6 % Linux[35]
+En effet, les serveurs de type UNIX (et en l'occurrence, GNU/Linux) sont très facilement sécurisables, et gratuits en ce qui concerne les libres, comme GNU/Linux. Cependant, s'agissant de part de marché, il est difficile de comptabiliser l'utilisation d'un logiciel gratuit.
+
+Part de marché sur les serveurs de réseau
+	Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue ! Comment faire ?
+Part de marché sur les postes clients
+En mai 2014, une étude de XiTi réalisée régulièrement sur les systèmes utilisés par les visiteurs de 17 000 sites web professionnels européens donne 91,9 % de part de marché à Windows (39,2 % à Windows XP, 21,0 % à Windows Vista, 18,3 % à Windows 7, 16,3 % à Windows 8 et 4,2 % à Windows 10), 5,3 % à Mac OS X et 0,9 % à GNU/Linux.
+
+Statistiques publiées par le site StatCounter et NetMarketShare sur la part de GNU/Linux sur les postes clients dans le monde :
+
+Année	StatCounter[36]	NetMarketShare
+2007	-	0,67 %[37]
+2008	0,69 %	0,83 %[38]
+2009	0,69 %	1,01 %[39]
+2010	0,78 %	1,00 %[40]
+2011	0,79 %	1,06 %[41]
+2012	0,84 %	1,16 %[42]
+2013	1,16 %	1,38 %[43]
+2014	1,43 %	1,55 %[44]
+2015	1,67 %	1,57 %[45]
+2016	/[46]	2,31 %[47]
+2017	/	2,24 %[47]
+2018	/	2,02 %[47]
+2019	1,85 %[48]	1,92 %[47]
+2020	1,93 %	3,17 %[47]
+2021	2,09 %[49]	/
+2022	2,93 %[50]	/
+2023	3,83 %[51]	/
+2024	/	/
+Caractéristiques techniques
+Interfaces
+La ligne de commande
+Article détaillé : Commandes Unix.
+Articles connexes : Shell Unix et Bourne-Again shell.
+Capture d’écran de l'émulateur de terminal Konsole.
+L'émulateur de terminal Konsole.
+Du fait de la filiation avec UNIX, la ligne de commande (ou shell Unix) est toujours disponible dans GNU/Linux, quelle que soit la distribution.
+
+Elle est restée longtemps incontournable, mais ce n'est plus vrai avec les distributions récentes et simples d'utilisation destinées à l'usage personnel, telles que Ubuntu ou Kubuntu. Néanmoins, les aides en ligne mentionnent souvent la marche à suivre en ligne de commande, même lorsqu'une configuration graphique est possible : cette méthode est plus universelle dans le monde GNU/Linux, et souvent plus facile à expliquer pour la personne qui aide, et son interlocuteur n'a qu'à copier-coller l'indication.
+
+Une interface graphique bien conçue permet de nos jours d'accomplir la grande majorité des tâches bien plus agréablement, mais ce n'est pas toujours le cas, particulièrement lorsque la tâche a un aspect répétitif ou non prévu. La ligne de commande, qui tire sa puissance de sa possibilité de combiner à l'infini des sous-tâches automatiques, et qui permet presque naturellement d'automatiser la tâche ainsi accomplie, peut alors se révéler plus efficace que l'interface graphique. Scientifiques, ingénieurs et développeurs comptent parmi ses plus fréquents utilisateurs.
+
+Interface graphique et ligne de commande peuvent aussi se compléter l'une et l'autre : KDE et GNOME sont livrés avec un terminal pour piloter, et donc automatiser, toutes les applications graphiques depuis la ligne de commande.
+
+Apple, très réputé pour ses interfaces graphiques — MacOS étant le premier système commercialisé avec la gestion des fenêtres et de la souris — a également intégré un terminal en ligne de commandes compatible UNIX sur Mac OS X.
+
+Certaines distributions, notamment celles spécialisées dans les serveurs ou certaines tâches d'administration, utilisent uniquement la ligne de commande, en particulier pour sa faible consommation de ressources, due à l'absence d'interface graphique, mais surtout pour sa puissance d'action, liée à l'interopérabilité des commandes et la possibilité de générer des scripts.
+
+Applications
+Les distributions simples d'utilisation destinées au grand public telles qu'Ubuntu et ses dérivées utilisant les paquets .deb, Mageia utilisant les paquets .rpm, etc. bénéficient de nombreux programmes gratuits, libres, ergonomiques et en mode graphique. Ils permettent d'effectuer toutes tâches effectuées au quotidien : bureautique, visualisation de photos, traitement d'images, lecture de musiques, visualisation et édition de vidéos, navigateurs Web, messagerie et voix sur IP (skype, XMPP, etc.). Certains programmes permettent également un usage professionnel : programmation, comptabilité, dessin 3D, CAO, FTP, etc.
+
+De nombreux programmes peuvent s'utiliser depuis un terminal seul. On peut citer les éditeurs Vim, Emacs, Nano et sed, ou les gestionnaires de paquets apt et rpm. Certains de ces programmes peuvent aussi s'utiliser par l'intermédiaire d'une interface graphique.
+
+De multiples raisons expliquent la foule de programmes fonctionnant en mode console :
+
+raison historique : à l'origine, GNU/Linux était dépourvu d'environnement graphique ;
+souci d'efficacité : les programmes qui n'utilisent pas l'environnement graphique demandent moins de ressources ;
+souci de rapidité : ouvrir une console pour y taper une commande est souvent bien moins long que de passer par les divers menus d'un gestionnaire de fenêtres ou d'un environnement graphique ;
+souci d'un meilleur contrôle ;
+possibilité de les intégrer facilement dans des programmes plus complexes via des scripts ou dans des exécutions programmées (batch, sh).
+L'utilisation de ces programmes peut s'avérer difficile pour une personne n'étant pas habituée à travailler en mode texte. Ils sont cependant très prisés par les administrateurs et développeurs expérimentés, et deviennent incontournables lors de hautes exigences dans ces domaines.
+
+Gestionnaires X Window
+L'emploi du terme générique GNU/Linux est trompeur s'agissant de l'utilisation d'un ordinateur personnel. En effet, il existe plusieurs interfaces (ou environnement de bureau) aux caractéristiques différentes, comme KDE, GNOME ou Xfce.
+
+Cependant, comme toutes ces interfaces sont fondées sur X Window, leurs applications peuvent cohabiter et elles offrent des points communs dont l'affichage de fenêtres à distance (y compris via des protocoles compressés et chiffrés comme ssh et nox) et le copier-coller simplifié : un texte sélectionné par la souris est automatiquement copié, un clic milieu (ou un clic molette, ou sur les deux boutons en même temps) suffit alors pour coller le texte à l'endroit désiré. Il n'y a donc jamais besoin du clavier pour effectuer un copier-coller sous X.
+
+Capture d’écran d’un bureau utilisant l’environnement graphique Window Maker
+Environnement graphique traditionnel (Window Maker) sous GNU/Linux avec un simple gestionnaire de fenêtres et une suite hétéroclite d'applications.
+Traditionnellement, l'interface d'un système d'exploitation fondé sur le noyau Linux était une interface sobre voire spartiate, centrée autour d'un gestionnaire de fenêtres (il en existe beaucoup, comme Window Maker ou IceWM) et d'une suite assez hétéroclite d'applications.
+
+L'inconvénient de ce système traditionnel est le temps nécessaire à personnaliser un tel environnement, et surtout la non standardisation des applications ainsi utilisées. Les applications que l'on peut voir sur la copie d'écran de droite (XMMS, RealPlayer, Mozilla Firefox, xterm, Gaim, Konqueror) suivent chacune leurs propres conventions : aspect, comportements, raccourcis clavier différents ; les copier-coller et glisser-déposer sont disparates…
+
+Si individuellement des applications comme Vim ou Emacs peuvent effectivement avoir des aspects brillants, l'ensemble disparate de toutes ces applications en fait un système difficile à appréhender pour des utilisateurs débutants. Le temps consacré à apprendre une application et les réflexes ainsi acquis ne peuvent être appliqués aux autres applications, un avantage qu'apporte la standardisation de comportement des interfaces comme l'avait montré le Macintosh, avec par exemple le raccourci clavier utilisé pour quitter une application : Ctrl + Q ou Ctrl + X - Ctrl + C ou Ctrl + C ou juste q ou Esc ou encore :qa!, bye, quit ou exit, etc.
+
+L'utilisation de ce type d'environnement peut paraître déroutante aux utilisateurs habitués à d'autres solutions (telles KDE ou Gnome). Il présente en revanche l'avantage de la simplicité et de la souplesse de configuration et de personnalisation en fonction des besoins de chacun.
+
+Environnements de bureau
+Articles détaillés : KDE, GNOME, Xfce, LXDE et MATE.
+Capture d’écran de l'environnement graphique de bureau KDE 6 personnalisé avec l'émulateur de terminal Konsole et le nouveau "menu démarrer".
+L'environnement graphique de bureau KDE 6 personnalisé avec l'émulateur de terminal Konsole et le nouveau "menu démarrer".
+Capture d'écran de l'environnement graphique de bureau GNOME, avec diverses applications ouvertes.
+L'environnement graphique de bureau GNOME, avec diverses applications ouvertes.
+Capture d’écran d’un bureau fonctionnant avec Xfce.
+L'environnement Xfce avec le gestionnaire de fichiers Thunar, l'émulateur de terminal Terminal et divers autres logiciels.
+L'état des lieux du précédent chapitre est décrit dans un manifeste[52] datant de 1996 ayant poussé Matthias Ettrich à fonder en réaction le projet KDE, puis Miguel de Icaza à fonder le projet GNOME l'année suivante, qui s'inspirent de Mac OS et de Windows sur le plan de l'ergonomie logicielle et de la standardisation des comportements.
+
+Ces deux projets sont devenus les fédérateurs de GNU/Linux sur le poste de travail.
+
+Chacun offre en effet :
+
+aux programmeurs, un environnement de programmation très productif ainsi que des recommandations d'interfaces (en anglais : guidelines) permettant de produire plus vite des applications plus simples à utiliser ;
+aux traducteurs, une infrastructure. Ces deux environnements et leur myriade de logiciels sont traduits en plusieurs dizaines de langues[53] ;
+aux artistes, des espaces de travail[54] pour exercer leurs talents ;
+aux spécialistes de l'ergonomie, la possibilité de le rendre plus simple et plus cohérent[55] ;
+aux applications externes, un environnement de référence dans lequel s'intégrer[56] ;
+et par conséquent, à l'utilisateur, un environnement complet, intégré et homogène ainsi qu'une suite d'applications essentielles : explorateur de fichiers, navigateur web, lecteur multimédia, client de messagerie, carnet d'adresses, lecteur PDF, gestionnaire d'images.
+Ces deux environnements de bureau ont atteint récemment une maturité certaine, citons l'année 2003 pour KDE[57], un peu plus tard pour GNOME. Très actifs, ces deux projets ont néanmoins l'intention de s'améliorer nettement pour leurs prochaines versions majeures ; les efforts dans ce sens sont concentrés au sein des projets Appeal pour KDE, et ToPaZ[58] pour GNOME.
+
+Techniquement, ils reposent tous deux sur de nombreuses technologies communes, au premier rang desquelles le système de fenêtrage X11. Pour éviter de dupliquer certains efforts, une zone informelle de collaboration entre ces projets du nom de Freedesktop.org a été mise en place.
+
+C'est dans l'approche de l'ergonomie (celle-ci étant relative au type d'utilisateur) et dans la conception du rôle d'un environnement de bureau qu'ils diffèrent : l'environnement KDE pousse loin la volonté d'intégration entre les applications, possède de très nombreuses fonctionnalités avancées et joue la carte de la configuration tout en veillant à avoir des bons choix par défaut ; GNOME se veut plus épuré et se consacre sur les tâches essentielles (reprenant la philosophie making things just work). Chacun plaît, par conséquent, à un public différent.
+
+On peut noter également la montée en puissance[réf. souhaitée] d'un troisième environnement de bureau appelé Xfce, qui vise à fournir un environnement complet fondé sur GTK+ comme GNOME, tout en restant plus léger que ce dernier ou KDE.
+
+Offre en logiciels
+Article détaillé : Liste de logiciels libres.
+La communauté du logiciel libre a produit un grand nombre de logiciels utilisables dans de nombreux domaines.
+Voici des exemples de logiciels donnés à titre indicatif :
+
+la bureautique avec LibreOffice ou Calligra ;
+Internet avec Mozilla Firefox, Chromium, Konqueror, Epiphany, Mozilla Thunderbird, Pidgin, ou Transmission ;
+le multimédia avec Xine, MPlayer, VLC media player, XMMS, Totem ou Amarok ;
+le graphisme, avec GIMP, Inkscape ou Scribus ;
+la 3D avec Blender.
+La plupart des distributions GNU/Linux proposent un programme (comme Synaptic) permettant de naviguer dans une liste de logiciels testés et préconfigurés spécialement pour une distribution. Ces programmes sont alors téléchargés et installés en quelques clics, avec un système de signature électronique permettant de vérifier l'authenticité et l'intégrité des logiciels proposés. Ces programmes sont ensuite mis à jour automatiquement.
+
+Certains logiciels propriétaires importants ont également une version GNU/Linux. C'est le cas de Opera, Adobe Flash Player, Adobe Acrobat Reader, NeroLinux ou Skype par exemple.
+
+La notion de portabilité désigne la capacité d'un programme à être utilisé sous différents systèmes d'exploitation ou architectures.
+
+Enfin, il est possible d'utiliser des logiciels faits pour Microsoft Windows sur un poste GNU/Linux grâce à une implémentation de l'API Windows sous GNU/Linux comme Wine. Des offres commerciales fondées sur Wine comme CrossOver permettent d'utiliser presque sans problèmes des logiciels tels Microsoft Office et Photoshop issus du monde Windows.
+
+Jeux vidéo
+Articles détaillés : Jeux vidéo sous GNU/Linux et SteamOS.
+Tux dévalant la montagne dans Tux Racer
+Tux Racer.
+Il existe de nombreux[59] jeux disponibles sous GNU/Linux, gratuits ou payants, libres ou propriétaires. L'offre comporte aussi bien des petits jeux de bureautique (cartes, démineur, échecs, golf) que des boutiques de jeux commerciaux populaires, tel que Steam.
+
+Certains jeux sont conçus pour tourner nativement sous GNU/Linux (Quake III Arena ou 0 A.D. par exemple), et d'autres peuvent être lancés à l'aide de programmes implémentant l'API Windows sous GNU/Linux. Il en existe plusieurs implémentations, dont certaines spécialement pour les jeux, permettant ainsi de faire fonctionner de nombreux jeux conçus pour Windows, dans des environnements comme Cedega et Wine (par exemple World of Warcraft) mais les grands éditeurs de jeux vidéo ne distribuent aucun de leurs jeux vidéo en version 100 % compatible et supportant GNU/Linux. Le dernier recours des joueurs utilisant GNU/Linux consiste tout simplement à utiliser parallèlement Windows sur le même ordinateur grâce au multiboot ou à la virtualisation.
+
+Le fabricant de cartes graphiques ATI a pendant un temps développé ses propres pilotes pour GNU/Linux. À la suite de son rachat par AMD, ATI a ouvert les spécifications de ses cartes début 2008 afin que les développeurs de Mesa 3D puissent mieux intégrer la gestion de ses cartes.
+
+En 2013, la plate-forme Steam de Valve est déclinée sur GNU/Linux, celle-ci permet à la ludothèque de s'étoffer de nombreux titres parmi lesquels Team Fortress 2, Half-Life, etc. soit l'ensemble de la bibliothèque Valve, de même Amnesia: The Dark Descent ou bien FTL: Faster Than Light[60]. En parallèle, Gabe Newell annonce la Steam Machine, une console de salon qui sera proposée de base avec SteamOS, un système d'exploitation fondé sur la distribution GNU/Linux Arch Linux[61].
+
+Bibliothèques libres
+Les logiciels qui utilisent une bibliothèque libre peuvent fonctionner sur GNU/Linux et sur toutes les plates-formes où la bibliothèque est implantée. Ces bibliothèques peuvent ajouter une surcouche graphique sur des applications textuelles déjà existantes comme c'est le cas de Vim, mais elles servent surtout à développer des logiciels accessibles aux novices et disposant des fonctionnalités autorisées par les interfaces graphiques, comme le glisser-déposer, les manipulations à la souris, etc.
+
+D'autres applications comme Blender ou Google Earth sont un cas à part car ils utilisent la bibliothèque OpenGL destinée à la base à l'implémentation ainsi qu'à la gestion de programmes utilisant la 3D comme la 2D.
+
+Émulation
+Plusieurs logiciels d'émulation existent permettant de simuler le fonctionnement de systèmes d'exploitation concurrents ou des environnements de jeu.
+
+Émulation d'ordinateurs
+Les programmes Steem et ARAnyM émulent une bonne partie des applications écrites pour les machines Atari, notamment les Atari ST et Atari TT. UAE (Unix Amiga Emulator) permet d'émuler le Commodore Amiga, Basilik les anciens Mac 68000 d'Apple. Tous ces émulateurs émulent les microprocesseurs de la famille 68000 de Motorola qui équipaient ces ordinateurs, ainsi que les coprocesseurs spécialisés de l'Amiga.
+
+MESS (souvent associé a MAME) permet d'émuler de la même façon un grand nombre d'ordinateurs personnels 8 bits. Il existe également des émulateurs spécialisés pour chacun de ces ordinateurs : Euphoric pour les Oric, FMSX pour les MSX, mais aussi des émulateurs de ZX Spectrum, Commodore 64, etc.
+
+Utilisation d'application pour Microsoft Windows
+Des applications développées pour Windows peuvent tourner sur un système GNU/Linux via l'application Wine (ou ses dérivés commerciaux CrossOver et Cedega) qui réimplémente[62] le fonctionnement des principales API de Microsoft Windows. Le microprocesseur n'est pas émulé, seules les fonctions des APS sont remappées à la volée sur les API utilisées nativement dans GNU/Linux. Par exemple : DirectX utilise OpenGL, la gestion de l'impression est relayée à CUPS ou LPR, des périphériques USB à libusb (en), les tablettes graphiques à XInput, etc. Cela permet dans de nombreux cas des performances proches de l'exécution native, tout en évitant les problèmes de certains pilotes de périphériques inhérents à Windows. Dans certains cas spécifiques, les performances de certaines applications peuvent se trouver dégradées. De nombreux utilitaires, applications de tous domaines et jeux s'exécutent parfaitement, mais pas tous. Le site de Wine référence les applications fonctionnant et celles posant problème.
+
+Virtualisation
+En outre, GNU/Linux ouvre également la possibilité d'obtenir une parfaite séparation entre plusieurs environnements virtuels tournant sur un seul ordinateur physique, en prenant en compte les modules de virtualisation présents dans les processeurs récents comme AMD-V sur AMD et Intel-VT (ou IVT) sur Intel. Ces environnements de virtualisation permettent d'exécuter des environnements différents ou plusieurs environnements similaires sur une même machine, tout en assurant une certaine sécurité dans la séparation des accès. Ce système est utilisé depuis longtemps par les mainframes d'IBM. IBM a d'ailleurs porté GNU/Linux sur celles-ci afin de permettre à ses clients de continuer à les utiliser avec un système plus moderne.
+
+KVM est, depuis la version 2.6.20 du noyau Linux, le système de virtualisation par hyperviseur officiel de ce dernier. Couplé aux outils de QEMU, il permet de créer des ordinateurs virtuels tournant directement sur un noyau Linux non modifié et est capable d'accueillir un grand nombre de systèmes d'exploitation tels que Windows, Solaris, BSD, etc. KVM est au cœur de la stratégie de virtualisation de Red Hat.
+
+Grâce à son ouverture, le noyau Linux permet aussi, moyennant des modifications plus ou moins importantes, l'utilisation d'autres produits de virtualisation tels que :
+
+Oracle VM VirtualBox, développé par Sun sous le nom de Virtualbox, avant que l'entreprise ne soit rachetée par Oracle Corporation, qui se distingue avant tout par une interface très conviviale permettant de gérer des machines virtuelles en environnement graphique. Virtualbox existe en version gratuite et en version payante, cette dernière offrant des fonctionnalités supplémentaires ;
+Qemu, machine virtuelle libre ;
+Xen, système de paravirtualisation orienté serveur, pouvant offrir des performances très élevées en ne recourant à aucune émulation matérielle, mais nécessitant que les systèmes d'exploitation « invités » soient modifiés afin d'atteindre ce niveau de performances. Xen est libre mais nécessite d'importantes modifications du noyau Linux ;
+VMware, système de virtualisation professionnel, non libre, décliné en versions serveur et poste de travail ;
+Docker ;
+OpenVZ ;
+Bochs.
+Prise en charge du matériel
+Les distributions grand public prennent en charge la grande majorité du matériel intégré aux ordinateurs personnels et des accessoires destinés aux particuliers (disques dur, webcams, souris, imprimantes, vidéoprojecteurs, lecteurs DVD, cartes graphiques et audios, bluetooth, etc.).
+
+La prise en charge de l'équipement matériel est l'une des critiques principales faites à GNU/Linux. En effet, certains équipements spéciaux ne sont pas pris en charge directement par GNU/Linux et il n'existe pas toujours de pilote développé par le constructeur et compatible avec GNU/Linux. Certains fabricants fournissent systématiquement des pilotes pour Microsoft Windows et Mac OS X, alors que pour GNU/Linux, c'est souvent la communauté qui les développe elle-même par rétro-ingénierie. Parfois, la communauté préfère développer des pilotes libres stables bien que des pilotes propriétaires développés par les constructeurs existent (c'est le cas pour les cartes graphiques ATI ou Nvidia). Dans cette optique, les pilotes nécessaires pour faire fonctionner pleinement un ordinateur sont intégrés à la plupart des distributions GNU/Linux.
+
+Certains périphériques risquent de ne pas avoir de pilotes disponibles. Cependant, les utilisateurs de Windows ou Mac OS sont parfois également confrontés à des problèmes de pilotes lorsqu'ils installent une nouvelle version de leur système et l'absence de code source empêche une recompilation des pilotes propriétaires. Enfin, il arrive qu'il n'y ait des pilotes que pour GNU/Linux, et pas pour Windows ou Mac (supercalculateurs, serveurs Internet haut de gamme, consoles de jeu PlayStation, anciens périphériques dont le support a été arrêté par les constructeurs, etc.). Le matériel ancien peut être généralement recyclé sous GNU/Linux, car la pérennité des pilotes libres est également l'un des points forts de GNU/Linux.
+
+La première raison de cette situation est le faible impact de GNU/Linux chez les particuliers, ce qui n'incite pas les fabricants à investir dans le développement de pilotes pour cet environnement. La seconde raison est le refus de certaines distributions (Fedora ou Debian[réf. nécessaire][63], par exemple) d'embarquer des pilotes sous licences propriétaires, même quand ceux-ci existent, ce qui oblige l'utilisateur à les trouver et à les installer manuellement. Enfin, l’absence d’une API fixe dans le noyau Linux oblige les fabricants à délivrer des binaires des pilotes adaptés à chaque version du noyau[réf. nécessaire].
+
+Les utilisateurs qui travaillent sur plusieurs plates-formes et qui ont besoin de ces pilotes peuvent trouver des versions développées par de tierces parties, mais de tels pilotes ne supportent généralement qu'un ensemble rudimentaire de fonctions, et n'apparaissent qu'après la sortie du matériel, avec un certain temps de latence. Il existe cependant des mécanismes pour faire fonctionner certains pilotes développés pour d'autres systèmes d'exploitation (comme NdisWrapper).
+
+Les webcams sont, par exemple, particulièrement concernées par cette absence de pilotes, mais le protocole USB video device class ou UVC permet de répondre à ce problème avec de nombreuses webcams supportant ce protocole[64].
+
+Avec la démocratisation de GNU/Linux, certains grands constructeurs font des efforts pour développer ou fournir les informations nécessaires au développement de pilotes libres pour GNU/Linux, comme Creative Labs pour ses webcams ou cartes sons, Intel (processeurs, chipsets 3D, cartes réseau, etc.). Mais de nombreux autres composants nécessitent de vérifier la disponibilité de pilotes avant l'achat, s'ils sont destinés à une utilisation sous GNU/Linux. D'autre part, des assembleurs, tels que Dell[65], Asus — poussé par Intel et son projet Moblin[66] — Lineo (en) ou Everex, vendent des ordinateurs avec GNU/Linux pré-installé.
+
+Linux et la sécurité
+Linux permet une stricte séparation des privilèges. Une des conséquences est que, sauf faille de sécurité permettant une élévation des privilèges[67], un ver ou un virus informatique ne peut accéder qu'à une partie des ressources et fonctionnalités d'un système Linux, mais ni aux données importantes du système, ni aux données d'éventuels autres utilisateurs[68].
+
+Dans le domaine des serveurs, le degré de sécurité dépend, en comparaison, avant tout du degré d'expérience qu'a l'administrateur systèmes. Là, Linux marque des points grâce à sa liberté d'utilisation, qui permet sans risque et sans surcoût de tester abondamment divers scénarios sur d'autres ordinateurs, et d'y acquérir ainsi une expérience utile.
+
+Il existe une série de distributions spécifiquement axées sur la sécurité, et des initiatives telles que SELinux de la National Security Agency. Mais il existe également une série de distributions axée sur l'anti-sécurité, comme Damn Vulnerable Linux, BackTrack ou plus récemment Kali Linux pour sensibiliser les experts aux problématiques de sécurité sur ce système d'exploitation.
+
+Linux supporte une grande variété de plates-formes matérielles, ainsi que de solutions logicielles. Une faille de sécurité touchant le plus populaire client de messagerie ne touchera qu'une fraction des utilisateurs de logiciels libres ; en revanche, une faille touchant Outlook Express pouvait toucher d'un coup une proportion énorme des utilisateurs de Windows. Cette thèse est développée dans un rapport écrit par des sommités du domaine comme Bruce Schneier pour le compte de la CIA et reprise par la société Gartner dans un document[69]. Ce rapport énonce que puisque la plupart des ordinateurs tournent sous un système d'exploitation de Microsoft, la plupart des ordinateurs du monde sont vulnérables aux mêmes virus et aux mêmes vers au même moment. Il propose pour éviter cela d'éviter la monoculture logicielle dans le domaine des systèmes d'exploitation.
+
+Enfin, le fait que Linux et nombre de logiciels tournant sous Linux soient des logiciels libres permet que son code source soit étudié d'un œil critique par quiconque désirant le faire, que ce soit pour effectuer des adaptations, dans un cadre éducatif, pour répondre aux intérêts privés d'une entreprise ou une institution ou par simple intérêt personnel (pour en rechercher les vulnérabilités par exemple, la plupart du temps dévoilée et corrigée extrêmement vite). En relation avec cela, on entend souvent l'argument que les failles de sécurité sont corrigées plus rapidement, affirmation approuvée et réfutée par diverses études, en fonction généralement de leur source de financement. Enfin, la liberté des logiciels rend inutile le recours au piratage des logiciels, aux cracks ou autres sites de warez très populaires parmi les adeptes des autres systèmes d'exploitation, et qui constituent un vecteur d'infection des ordinateurs.
+
+Reste que Linux n'est pas totalement insensible aux problèmes de sécurité, comme l'a montré le ver Slapper en septembre 2002, premier du genre à toucher un nombre notable d'ordinateurs sous Linux, avant tout des serveurs web tournant sous Apache (six mille à l'apogée du ver[70]). La faille Shellshock sur l'interpréteur de commande Bash, par défaut sur de nombreuses distributions Linux est une autre faille (touchant au passage Mac OS) qui vient d'être découverte. Elle était déjà ancienne : elle daterait d'une vingtaine d'années. Elle n'aurait pas été découverte antérieurement.
+
+De plus, Linux reste un système d'exploitation vulnérable[71][source insuffisante], ainsi, près de quatre mille neuf cents vulnérabilités ont été recensées entre 2003 et 2008, celles-ci sont réparties sur les différentes distributions disponibles. Elles ont été, pour la plupart, corrigées assez rapidement.
+
+En revanche, le nombre de failles découvertes durant une période précise n'est pas une mesure fiable pour déterminer la sécurité d'un système d'exploitation, il faut déterminer :
+
+leur impact sur le système ;
+et le temps de vulnérabilité du système[72].
+Cependant, un article publié notamment sur Génération NT le 26 juin 2013 indiquait qu'Android concentrait 92 % de toutes les menaces dues aux malwares sur mobiles contredisant dans la pratique l'optimisme qui a longtemps prévalu dans la communauté des Linuxiens[réf. nécessaire][73],[74]. Cette appréciation est modérée par le fait que Linux n'étant que le cœur d'Android, rien ne garantit la sécurité des applications Android d'origines diverses.
+
+Gestion numérique des droits
+La gestion des droits numériques (Digital Rights Management - DRM en anglais - les DRM sont très souvent appelés « Gestion des restrictions numérique », de l'anglais Digital Restrictions Management par la Free Software Foundation et les activistes du logiciel libre[75]) concerne le domaine du multimédia, et notamment la musique et les vidéos qui peuvent être achetées sur Internet. Certaines œuvres sont protégées par des verrous numériques, visant à contrôler l'utilisation de l'œuvre, par exemple en limitant le nombre d'écoutes ou de copies possibles. Ces DRM nécessitent l'emploi d'une technologie particulière, qui est la propriété exclusive du fabricant et vendeur desdits DRM, ce qui explique que la lecture d'une œuvre protégée se trouve liée à l'utilisation d'un programme spécifique. Les deux plus grands fabricants de systèmes de gestion des droits numériques, Microsoft et Apple, conditionnent l'usage des œuvres protégées par leurs systèmes à l'utilisation respective du lecteur Windows Media, et de iTunes. Ces sociétés vendant leur propre système d'exploitation, elles ne souhaitent pas proposer de version de leurs programmes pour GNU/Linux. Ainsi, il n'est souvent pas possible pour les utilisateurs de GNU/Linux d'acheter en ligne de la musique sur un site de téléchargement payant, ou d'écouter de la musique déjà achetée et téléchargée.
+
+Il existe aussi des DRM sur les CD audio, mais ceux-ci sont beaucoup moins standardisés et moins courants. La plupart sont conçus pour fonctionner avec les systèmes d'exploitation de Microsoft et sont donc susceptibles d'être inopérants pour un utilisateur de GNU/Linux.
+
+Il ne s'agit pas de limitations techniques, puisque des systèmes de gestion libres existent[76]. Voir aussi Linus Torvalds, selon lequel GNU/Linux et la gestion des droits ne sont pas incompatibles[77].
+
+Utilisations
+Un serveur de la Wikimedia Foundation
+De nombreux serveurs de la Fondation Wikimédia fonctionnent sous LAMP (Linux-Apache-MySQL-PHP).
+Serveur
+Articles détaillés : Serveur informatique et UNIX.
+En raison de la relation de GNU/Linux avec Unix, GNU/Linux s'est très rapidement imposé sur le marché des serveurs informatiques. Un point crucial a été la possibilité d'utiliser un système d'exploitation de type Unix sur du matériel compatible PC, beaucoup moins cher que les solutions à base d'Unix propriétaire et de matériel spécifique. De nombreux logiciels serveurs très demandés et très utilisés (serveur HTTP, base de données, groupware, serveur de messagerie électronique, etc.) étant disponibles gratuitement, en général sans aucune limitation, et fiables, la part de marché de GNU/Linux dans ce domaine a en conséquence crû rapidement.
+
+GNU/Linux ayant une réputation de stabilité et d’efficacité dans la maintenance[réf. souhaitée], il remplit les exigences posées à tout système d'exploitation pour serveurs. De plus, la modularité d'un système fondé sur le noyau Linux permet l'exploitation de serveurs destinés à une tâche particulière. Le portage du noyau Linux sur de nombreux composants matériels fait que GNU/Linux est aujourd'hui utilisable sur toutes les architectures utilisées dans ce domaine. Le matériel utilisable est en conséquence considérable. Les derniers IBM eServer p5 et IBM eServer i5 sont par exemple supportés par IBM avec un système d'exploitation GNU/Linux et permettent d'y exécuter plusieurs systèmes GNU/Linux en parallèle.
+
+Les serveurs GNU/Linux sont exploités dans à peu près tous les domaines. Un des exemples les plus connus est résumé par l'acronyme LAMP, où GNU/Linux propulse un serveur web Apache associé à la base de données MySQL et au langage de programmation PHP (alternativement : Perl ou Python). GNU/Linux est également souvent utilisé comme serveur de fichiers, le plus souvent dans les réseaux Windows grâce au serveur Samba, moins souvent sous NFS ou AppleShare.
+
+Sécurité réseau
+Linux, qui jouit d'une bonne réputation en matière de sécurité et de performance (passage à l'échelle) est très utilisé dans le domaine des réseaux informatiques, par exemple comme passerelle, comme routeur, proxy ou comme pare-feu.
+
+Ordinateur central
+L'aspect libre du code source, et la possibilité qui en découle d'adapter le système à une tâche précise, a permis à GNU/Linux de faire son entrée dans les centres de calculs. Sur ce marché des ordinateurs centraux, gros ordinateurs très fiables optimisés pour le traitement massif de données, omniprésents dans les banques, les sociétés d'assurances et les grandes entreprises, GNU/Linux fait de plus en plus concurrence aux systèmes UNIX propriétaires qui étaient autrefois la norme.
+
+Grappes de serveurs
+GNU/Linux a été très tôt utilisé dans le domaine des grappes de serveurs (en anglais : clusters), par exemple par le moteur de recherche Google à la fin des années 1990[78]. Dans cette configuration, associée à la notion de grille informatique, de simples ordinateurs tournant sous une distribution spécialisée de GNU/Linux travaillent indépendamment au sein d'un grand réseau d'ordinateurs.
+
+Superordinateurs
+Les superordinateurs sont conçus pour atteindre les plus hautes performances possibles avec les technologies connues, en particulier en matière de vitesse de calcul. En novembre 2006, selon TOP500, GNU/Linux fait tourner 74 % des cinq cents plus puissants ordinateurs du monde[79] (contre 20 % pour UNIX) dont les plus puissants, les deux serveurs Blue Gene d'IBM (40 960 et 131 072 processeurs). En novembre 2007, dans ce même TOP500, plus de 85 % des superordinateurs utilisent GNU/Linux, contre 6 % pour l'ancêtre UNIX et 1,20 % pour Windows. En novembre 2008, 87,8 % des superordinateurs tournent sous GNU/Linux contre 4,60 % sous UNIX. En novembre 2009, 446 superordinateurs (89,20 %) utilisent GNU/Linux et 5 seulement sont sous Windows (1 %)[80]. En novembre 2017, 100 % des TOP500[31] utilisent GNU/Linux pour système d'exploitation.
+
+Le Fugaku, fabriqué par Fujitsu, est le plus puissant supercalculateur à ce jour (août 2024) ; il fonctionne avec un noyau Linux basé sur une distribution GNU/Linux Red Hat Linux 8[81]. Le Roadrunner d'IBM, qui fut le premier à avoir officiellement dépassé la puissance symbolique de 1 pétaflop, fonctionne sous la distribution Linux Fedora[82].
+
+Embarqué
+
+PDA Sharp Zaurus SL-5500 avec l'interface graphique Qt Extended et le logiciel OpenZaurus fondé sur Linux.
+Linux se trouve aussi au cœur de nombreux appareils informatiques ou électroniques grand public, et parfois sans que l'usager le sache. Il s'agit notamment d'équipement réseau et de petits appareils numériques destinés à la consommation de masse, équipés en général d'un processeur spécialisé économe en énergie et d'une mémoire flash.
+
+Le succès de Linux dans ce domaine tient, ici comme ailleurs, à ce que les fabricants apprécient de pouvoir d'une part adapter le logiciel à leurs besoins (consommation, interface, fonctions annexes, etc.) et d'autre part de bénéficier de l'expérience et du travail d'une communauté active. Linux est aussi apprécié dans ce domaine pour sa fiabilité, sa résistance aux attaques des pirates informatiques sur les réseaux et bien sûr sa gratuité. En embarqué, Linux est fréquemment utilisé avec les outils uClibc et BusyBox qui ont été développés pour le matériel particulièrement limité en capacité mémoire.
+
+Des forums de coopération spécialisés aident les fabricants de ces produits en mettant à disposition instructions, programmes et exemples de codes, et en s'efforçant de standardiser les interfaces de programmations de Linux dans l'embarqué. L'OSDL a lancé le 17 octobre 2005 la Mobile Linux Initiative pour accélérer la progression de Linux dans ce domaine.
+
+Réseaux et communication
+Linux fait tourner plusieurs routeurs dont certains modèles de Linksys, ainsi que divers terminaux fournis par des fournisseurs d'accès à Internet (comme la Freebox, la box de SFR ou la Livebox en France).
+OpenWrt est une version Linux minimaliste développée pour remplacer le firmware des routeurs basés sur une puce Broadcom (par exemple les routeurs WLAN d'Asus, Belkin, Dell, Linksys, US Robotics, Viewsonic).
+Linux se retrouve également sur une gamme de téléphones portables (Linux phones : Motorola), sur l'assistant personnel Sharp Zaurus et les tablettes Internet Nokia 770, Nokia N800 et Nokia N810. Dans le domaine des assistants de navigation personnels, les systèmes GPS autonomes de TomTom sont conçus à partir d'une plate-forme Linux. Les systèmes d'exploitation pour mobile Android, webOS (éditée par Palm avant son rachat par HP), Tizen (anciennement MeeGo) mais aussi Maemo, utilisé sur le Nokia N900, possèdent tous un noyau Linux.
+Multimédia
+Linux est utilisé dans des lecteurs de salon DivX, de nombreux centres multimédia, des téléviseurs et des décodeurs TNT, sur les démos "3e génération" comme la Dreambox et Vu+, sur des baladeurs audios comme ceux de SanDisk et sur les baladeurs multimédias d'Archos.
+Console de jeu
+La GP2X de GamePark, console de jeux vidéo portable.
+La Pandora (console portable), console de jeu open source qui a un système d'exploitation Linux compilé pour processeurs ARM.
+La PlayStation 3 de Sony pouvait utiliser Linux mais une mise à jour dite de sécurité a enlevé cette possibilité.
+Le Steam Deck, console portable produite par Valve qui est sortie en février 2022, tourne sous SteamOS 3, une distribution Linux dérivée d'Arch Linux[83].
+Robotique
+Le marché décollant des systèmes de robots ludiques utilise un OS Linux[réf. souhaitée].
+Notes et références
+« https://groups.google.com/group/comp.os.minix/msg/b813d52cbc5a044b [archive] »
+« https://9to5linux.com/linux-kernel-6-14-officially-released-this-is-whats-new [archive] »
+(en-US) Marshall Kirk McKusick, « Open Sources: Voices from the Open Source Revolution [archive] », sur oreilly.com, 29 mars 1999 (consulté le 25 juillet 2023).
+« new UNIX implementation [archive] », sur groups.google.com (consulté le 25 juillet 2023).
+(en) « Personal note from Richard Stallman »(Archive.org • Wikiwix • Archive.is • Google • Que faire ?), Préface du manuel d’utilisation de la machine Lisp du MIT, juin 1984.
+(en) Linus Benedict Torvalds, « comp.os.minix [archive] », sur groups.google.com, août 1991 (consulté le 6 septembre 2009).
+Linus Torvalds et David Diamond, Just for Fun, The Story of an Accidental Revolunatiory, 2001 (lire en ligne [archive])
+A Short History of Linux Distributions [archive], 30 juin 2004, LWN.net (consulté le 28 juillet 2011).
+« Turbolinux distribuera des logiciels IBM sous Linux », sur 01net (version du 20 septembre 2003 sur Internet Archive).
+Jérôme Bouteiller, « En rachetant Ximian, Novell se renforce dans les solutions Linux [archive] », sur Clubic.com, 5 août 2003 (consulté le 25 novembre 2023).
+Christophe Guillemin, « Novell rachète Suse Linux [archive] », sur ZDNet France, 4 novembre 2003 (consulté le 25 novembre 2023).
+(en) Mitch Wagner, « Microsoft Uses Linux To Publish Its Own Web Site [archive] », sur CRN, 20 août 2003 (consulté le 25 novembre 2023).
+(en) Mark Tyson, « Linus Torvalds kicked the Russians out of Linux, now they're creating a sovereign Linux community in Russia — Ministry of Digital Development steps in [archive] » Accès libre, Tom's Hardware, 3 novembre 2024 (consulté le 3 novembre 2024)
+Le français possède ces deux traductions différentes de free, qui amènent les anglophones à les distinguer comme dans free speech (libre) et free beer (gratuite).
+« Shareware Redistribution of FOSS Software - Software Freedom Law Center [archive] », sur softwarefreedom.org.
+Chapter 4. Compatibility issues [archive], debian.org.
+« Journal du hacker [archive] », sur journalduhacker.net.
+« Proselux »(Archive.org • Wikiwix • Archive.is • Google • Que faire ?), sur linux-france.org.
+Thrystan, « Trouver de l'aide grâce au Groupe des Parrains Linux [archive] », sur parrains.linux.free.fr.
+« Accueil - Parrain-Linux [archive] », sur parrain-linux.com.
+Sur livecdlist.com [archive], Knoppix est classé 5e sur 315 (au 1er février 2008)
+Canonical, « Community - Ubuntu [archive] », sur ubuntu.com.
+Jerry, « Linux Mandrake 7.0 [archive] », sur clubic.com, 23 mai 2000 (consulté le 6 septembre 2020).
+« Page introuvable [archive] », sur Developpez.com.
+(en) « Microsoft Contributes Linux Drivers to Linux Community » [archive].
+« Chiffres clés : les OS pour smartphones [archive] », sur ZDNet France (consulté le 10 mai 2021).
+(en) Les supercalculateurs les plus puissants de la planète et leur système d’exploitation [archive] et les précédentes statistiques (depuis 1993) [archive].
+« List Statistics - TOP500 Supercomputer Sites [archive] », sur top500.org.
+« Linux équipe plus de 95 % du top 500 des supercalculateurs les plus puissants du monde, Tianhe-2 garde son trône [archive] ».
+Glyn Moody, « open source has won [archive] ».
+Linux totally dominates supercomputers [archive], ZDNet, 14 novembre 2017.
+(en-US) Abhishek Prakash, « Linux Runs all of the Top 500 Fastest Supercomputers [archive] », sur itsfoss.com (consulté le 6 octobre 2020).
+[1] [archive].
+« Usage Statistics and Market Share of Operating Systems for Websites, October 2018 »(Archive.org • Wikiwix • Archive.is • Google • Que faire ?), sur w3techs.com.
+(en) « Usage Statistics and Market Share of Unix for Websites, May 2021 [archive] », sur w3techs.com (consulté le 10 mai 2021).
+« StatCounter Global Stats - Browser, OS, Search Engine including Mobile Usage Share [archive] », sur StatCounter Global Stats.
+« Operating system market share [archive] », sur netmarketshare.com.
+« Operating system market share [archive] », sur netmarketshare.com.
+« Operating system market share [archive] », sur netmarketshare.com.
+« Operating system market share [archive] », sur netmarketshare.com.
+« Operating system market share [archive] », sur netmarketshare.com.
+« Operating system market share [archive] », sur netmarketshare.com.
+« Operating system market share [archive] », sur netmarketshare.com.
+« Operating system market share [archive] », sur netmarketshare.com.
+« Operating system market share [archive] », sur netmarketshare.com.
+StatCounter, « StatCounter Global Stats - Browser, OS, Search Engine including Mobile Usage Share [archive] », sur gs.statcounter.com (consulté le 27 décembre 2016).
+« Operating system market share [archive] », sur netmarketshare.com (consulté le 27 décembre 2016).
+(en) « Desktop Operating System Market Share Worldwide [archive] », sur StatCounter Global Stats (consulté le 4 décembre 2024)
+(en) « Desktop Operating System Market Share Worldwide [archive] », sur StatCounter Global Stats (consulté le 4 décembre 2024)
+(en) « Desktop Operating System Market Share Worldwide [archive] », sur StatCounter Global Stats (consulté le 4 décembre 2024)
+(en) « Desktop Operating System Market Share Worldwide [archive] », sur StatCounter Global Stats (consulté le 4 décembre 2024)
+(en) Le manifeste de 1996 [archive], montrant la nécessité d’un environnement de travail.
+Voir l’état des traductions de KDE sur l10n.kde.org [archive] et de GNOME sur gnome.org [archive]
+Voir les espaces de travail de KDE et de GNOME sur art.gnome.org [archive]
+openusability [archive], et sont destinés à rendre plus simple et plus cohérente l’interface homme-machine.
+Deux projets : et www.gnome.org/projects/ooo/ [archive] ont permis l’intégration d’OpenOffice.org dans les deux environnements.
+(en) [PDF] évaluant la prise en main de KDE 3.1 par des utilisateurs habitués à Microsoft Windows.
+« ThreePointZero - GNOME Wiki! [archive] », sur live.gnome.org.
+« Linux-pedia -liste de jeux [archive] ».
+« SteamOS + Linux on Steam [archive] », sur store.steampowered.com.
+(en) SteamOS [archive].
+Wine : Wine Is Not An Emulator (en français « Wine n’est pas un émulateur »)
+« Debian Social Contract [archive] », sur debian.org.
+« Support UVC sur Linux et webcam supportées [archive] ».
+« Ordinateurs Portables - Dell France [archive] », sur www1.euro.dell.com.
+« CNET France - Tests produits, news high tech et logiciels [archive] », sur CNET France.
+« Vigil@nce vulnérabilité - Noyau Linux : élévation de privilèges via perf [archive] », sur vigilance.fr.
+« Gentoo Linux Documentation -- Users and the Linux file system [archive] », sur www.gentoo.org (consulté le 24 novembre 2025)
+(en) [PDF] CyberInsecurity: The cost of Monopoly [archive], un document du CCIA dénonçant des dangers d’un système monopolitaire.
+(en) en septembre 2002.
+Bruce Schneier, 3 mai 2007 : « […] les produits et services informatiques ne sont pas naturellement sûrs ».
+Extern ZDNet, « Nouvelle discorde autour de la sécurité des systèmes Linux et Windows [archive] », 10 janvier 2006 (consulté le 24 novembre 2025)
+Android pour 92 % de tous les malwares mobiles connus [archive], consulté le 26 juin 2013.
+Hausse de 614 % des malwares mobiles, dont la cible préférée reste Android [archive], consulté le 26 juin 2013.
+(en) « Digital Restrictions Management and Treacherous Computing » [archive], fsf.org, 18 septembre 2006.
+(de) Julius Stiebert: DRM-Spezifikationen von Sun [archive] auf golem.de, 21. März 2006
+(de) Linus Torvalds: Flame Linus to a crisp! [archive] auf der LinuxKernel-Mailing-Liste, 23 avril 2003
+« 50000 serveurs sous linux pour le moteur google »(Archive.org • Wikiwix • Archive.is • Google • Que faire ?).
+Statistiques sur les systèmes d’exploitation [archive] utilisés par les superordinateurs
+Top 500 de novembre 2009 [archive].
+(en) Jaguar sur le site du NCCS (National Center for Computational Sciences) [archive]. Consulté le 4 août 2010.
+[lire en ligne [archive]] [PDF].
+(en) Craig Pearson, « Here’s why SteamOS switched from Debian to Arch Linux [archive] », sur rockpapershotgun.com, 10 août 2021 (consulté le 11 novembre 2021).
+Annexes
+Voir aussi
+Sur les autres projets Wikimedia :
+
+Linux, sur Wikimedia Commons
+Linux, sur le Wiktionnaire
+Linux, sur Wikiversity
+Linux, sur Wikibooks
+Linux, sur Wikisource
+Linux, sur Wikiquote
+Linux, sur Wikinews
+Notices d'autorité : VIAFBnF (données)IdRefLCCNGNDIsraëlTchéquieGrèce
+Bibliographie
+(fr) « Site officiel du projet GNU [archive] », Projet GNU
+Description du projet par son créateur
+(fr) Richard Stallman, « Pourquoi les « systèmes Linux » doivent-ils être appelés GNU/Linux ? [archive] »
+Plaidoyer pour l'utilisation de la terminologie GNU/Linux, toujours par le créateur de GNU
+Richard Stallman et la révolution du logiciel libre.
+Linus Torvalds et David Diamond (trad. de l'anglais), Il était une fois Linux : L’extraordinaire histoire d’une révolution accidentelle, Paris, Osman Eyrolles Multimédia, 2001, 300 p. (ISBN 2-7464-0321-8)
+(en) Peter H. Salus, The Daemon, the Gnu, and the Penguin, Reed Media Services, 2008, 204 p. (ISBN 978-0-9790342-3-7)
+Chris DiBona (dir.) (trad. de l'anglais), Tribune libre : Ténors de l’informatique libre, Pékin, O’Reilly, 1999, 295 p. (ISBN 2-84177-084-2)
+Eric Raymond, La Cathédrale et le Bazar [lire en ligne [archive]]
+Florent Latrive, Du bon usage de la piraterie : culture libre, sciences ouvertes, Paris, Exils, 2004, 170 p. (ISBN 2-912969-59-X, présentation en ligne [archive])
+Philippe Aigrain, Cause commune : L’Information en bien commun et propriété, Fayard, coll. « Transversales », 2005, 283 p. (ISBN 2-213-62305-8)
+Articles connexes
+GNU
+Projet GNU
+Licence publique générale GNU
+Noyau Linux
+Distribution Linux
+Copyleft
+Logiciel libre
+Liste de logiciels populaires sur Linux
+Liste de logiciels libres
+principales distributions linux
+Correspondance entre logiciels libres et logiciels propriétaires
+Groupe d’utilisateurs Linux
+Astra Linux
+Films documentaires : Revolution OS et Nom de code : Linux
+ [afficher]
+v · m
+GNU/Linux
+ [afficher]
+v · m
+Principaux systèmes d’exploitation
+icône décorative Portail des logiciels libres icône décorative Portail de Linux icône décorative Portail de l’informatique
+Catégories : GNULinuxGNU/Linux[+]
+La dernière modification de cette page a été faite le 2 décembre 2025 à 08:30.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons attribution, partage dans les mêmes conditions ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.

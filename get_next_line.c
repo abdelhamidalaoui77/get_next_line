@@ -52,21 +52,21 @@ static char	*read_and_join(int fd, char *stash)
 	ssize_t	readed;
 	char	*temp;
 
-	buf = malloc(BUFFER_SIZE + 1);
+	buf = malloc((size_t)BUFFER_SIZE + 1);
 	if (!buf)
-		return (NULL);
+		return (free(stash), NULL);
 	readed = 1;
 	while (!ft_strchr(stash, '\n') && readed > 0)
 	{
 		readed = read(fd, buf, BUFFER_SIZE);
 		if (readed == -1)
-		{
-			free(buf);
-			free(stash);
-			return (NULL);
-		}
+			return (free(buf), free(stash), NULL);
+		if (readed == 0)
+			return (free(buf), stash);
 		buf[readed] = '\0';
 		temp = ft_strjoin(stash, buf);
+		if (!temp)
+			return (free(buf), free(stash), NULL);
 		free(stash);
 		stash = temp;
 	}
@@ -79,10 +79,10 @@ char	*get_next_line(int fd)
 	static char	*stash;
 	char		*line;
 
-	if (fd < 0 || fd >= FD_SETSIZE || BUFFER_SIZE <= 0)
+	if (fd < 0 || fd >= 1023 || BUFFER_SIZE <= 0)
 		return (NULL);
 	stash = read_and_join(fd, stash);
-	if (!stash[fd])
+	if (!stash)
 		return (NULL);
 	line = extract_line(stash);
 	stash = update_stash(stash);
