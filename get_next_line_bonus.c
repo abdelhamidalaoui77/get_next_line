@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.c                                    :+:      :+:    :+:   */
+/*   get_next_line_bonus.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: alamrani <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/11/27 16:59:49 by alamrani          #+#    #+#             */
-/*   Updated: 2025/11/27 17:00:50 by alamrani         ###   ########.fr       */
+/*   Created: 2025/12/02 17:22:25 by alamrani          #+#    #+#             */
+/*   Updated: 2025/12/02 17:24:11 by alamrani         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 size_t	ft_strlen(const char *s)
 {
@@ -88,15 +88,15 @@ static char	*read_and_join(int fd, char *stash)
 
 char	*get_next_line(int fd)
 {
-	static char	*stash;
+	static char	*stash[1024];
 	char		*line;
 
 	if (fd < 0 || fd >= 1023 || BUFFER_SIZE <= 0)
 		return (NULL);
-	stash = read_and_join(fd, stash);
-	if (!stash)
+	stash[fd] = read_and_join(fd, stash[fd]);
+	if (!stash[fd])
 		return (NULL);
-	line = extract_line(stash);
-	stash = update_stash(stash);
+	line = extract_line(stash[fd]);
+	stash[fd] = update_stash(stash[fd]);
 	return (line);
 }
